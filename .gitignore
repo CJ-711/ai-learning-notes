@@ -3,7 +3,10 @@ Thumbs.db
 desktop.ini
 *.tmp
 *.log
+node_modules/
+package-lock.json
+production-kits/**/renders/_segments/
+production-kits/**/renders/audio/
 
 # Keep third-party skill source outside this repo unless intentionally vendored.
 production-kits/**/github-skills/*/
-
