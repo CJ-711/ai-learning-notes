@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Keep third-party skill source outside this repo unless intentionally vendored.
+production-kits/**/github-skills/*/
+

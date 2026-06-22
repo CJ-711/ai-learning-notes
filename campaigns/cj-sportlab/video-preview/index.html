@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CJ Sport Usage Video Preview</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #050605;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
+        color: #f5f7ef;
+      }
+      .frame {
+        position: relative;
+        width: min(100vw, 540px);
+        aspect-ratio: 9 / 16;
+        overflow: hidden;
+        background: #080a08;
+        box-shadow: 0 24px 90px rgba(0,0,0,.55);
+      }
+      .brand {
+        position: absolute;
+        top: 38px;
+        left: 34px;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 22px;
+        font-weight: 950;
+        text-shadow: 0 2px 16px rgba(0,0,0,.45);
+      }
+      .mark {
+        width: 48px;
+        height: 48px;
+        display: grid;
+        place-items: center;
+        border-radius: 13px;
+        background: #c9ff00;
+        color: #080a08;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        background: #080a08;
+        overflow: hidden;
+      }
+      .scene img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: saturate(1.04) contrast(1.02);
+      }
+      .scene::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(180deg, rgba(0,0,0,.42), transparent 32%),
+          linear-gradient(0deg, rgba(0,0,0,.72), transparent 48%);
+      }
+      .copy {
+        position: absolute;
+        z-index: 5;
+        left: 34px;
+        right: 34px;
+        bottom: 54px;
+        display: grid;
+        gap: 14px;
+      }
+      .kicker {
+        width: fit-content;
+        padding: 9px 12px;
+        border-radius: 999px;
+        background: #c9ff00;
+        color: #080a08;
+        font-size: 14px;
+        font-weight: 950;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        font-size: 49px;
+        line-height: .95;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 0;
+        color: #e3eadf;
+        font-size: 22px;
+        line-height: 1.22;
+      }
+      .shot-note {
+        position: absolute;
+        z-index: 6;
+        right: 28px;
+        top: 104px;
+        max-width: 172px;
+        padding: 12px 14px;
+        border: 1px solid rgba(201,255,0,.5);
+        border-radius: 16px;
+        background: rgba(8,10,8,.72);
+        color: #c9ff00;
+        font-size: 15px;
+        font-weight: 850;
+        line-height: 1.18;
+      }
+      .s1 { animation: s1 20s linear infinite; }
+      .s2 { animation: s2 20s linear infinite; }
+      .s3 { animation: s3 20s linear infinite; }
+      .s4 { animation: s4 20s linear infinite; }
+      .s1 img { object-position: 53% 45%; animation: push1 20s linear infinite; }
+      .s2 img { object-position: 52% 50%; animation: push2 20s linear infinite; }
+      .s3 img { object-position: 50% 44%; animation: push3 20s linear infinite; }
+      .s4 img { object-position: 51% 40%; animation: push4 20s linear infinite; }
+      .progress {
+        position: absolute;
+        z-index: 30;
+        left: 0;
+        bottom: 0;
+        height: 7px;
+        background: #c9ff00;
+        animation: progress 20s linear infinite;
+      }
+      @keyframes s1 {
+        0%, 22% { opacity: 1; }
+        25%, 100% { opacity: 0; }
+      }
+      @keyframes s2 {
+        0%, 23% { opacity: 0; }
+        26%, 47% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes s3 {
+        0%, 48% { opacity: 0; }
+        51%, 72% { opacity: 1; }
+        75%, 100% { opacity: 0; }
+      }
+      @keyframes s4 {
+        0%, 73% { opacity: 0; }
+        77%, 96% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      @keyframes push1 {
+        0%, 22% { transform: scale(1.06) translateX(0); }
+        25%, 100% { transform: scale(1.12) translateX(-8px); }
+      }
+      @keyframes push2 {
+        0%, 23% { transform: scale(1.1) translateY(10px); }
+        26%, 47% { transform: scale(1.18) translateY(-8px); }
+        50%, 100% { transform: scale(1.18) translateY(-8px); }
+      }
+      @keyframes push3 {
+        0%, 48% { transform: scale(1.08) translateX(10px); }
+        51%, 72% { transform: scale(1.15) translateX(-8px); }
+        75%, 100% { transform: scale(1.15) translateX(-8px); }
+      }
+      @keyframes push4 {
+        0%, 73% { transform: scale(1.08) translateY(12px); }
+        77%, 96% { transform: scale(1.16) translateY(-8px); }
+        100% { transform: scale(1.16) translateY(-8px); }
+      }
+      @keyframes progress {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame" aria-label="CJ Sport product usage video preview">
+      <div class="brand"><span class="mark">CJ</span><span>CJ Sport</span></div>
+
+      <section class="scene s1">
+        <img src="../assets/images/cj-sport-product-hero.png" alt="CJ Sport grip trainer kit product shot">
+        <div class="shot-note">Shot 01: product hero, no abstract animation</div>
+        <div class="copy">
+          <span class="kicker">Open with the kit</span>
+          <h1>Show what it is first.</h1>
+          <p>Hand gripper, finger band, grip ring. Clear product, fast recognition.</p>
+        </div>
+      </section>
+
+      <section class="scene s2">
+        <img src="../assets/images/cj-sport-desk-use.png" alt="hand using grip trainer at desk">
+        <div class="shot-note">Shot 02: hand + desk use</div>
+        <div class="copy">
+          <span class="kicker">Desk break</span>
+          <h1>Make the use visible.</h1>
+          <p>Use a hand close-up so viewers understand the action immediately.</p>
+        </div>
+      </section>
+
+      <section class="scene s3">
+        <img src="../assets/images/cj-sport-gym-use.png" alt="person using grip trainer after workout">
+        <div class="shot-note">Shot 03: person context</div>
+        <div class="copy">
+          <span class="kicker">After workout</span>
+          <h1>Add a real scene.</h1>
+          <p>Gym context makes it feel like a product test, not a fake ad.</p>
+        </div>
+      </section>
+
+      <section class="scene s4">
+        <img src="../assets/images/cj-sport-band-demo.png" alt="hands using finger resistance band">
+        <div class="shot-note">Shot 04: accessory demo</div>
+        <div class="copy">
+          <span class="kicker">7-day content test</span>
+          <h1>Then test the clips.</h1>
+          <p>Track watch time, saves, comments and profile visits before inventory.</p>
+        </div>
+      </section>
+
+      <div class="progress"></div>
+    </main>
+  </body>
+</html>

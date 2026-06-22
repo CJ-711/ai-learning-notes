@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CJ Sport 试水作品包</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
+        color: #f5f7ef;
+        background: #080a08;
+        letter-spacing: 0;
+      }
+      a { color: inherit; text-decoration: none; }
+      .wrap {
+        width: min(1180px, calc(100% - 36px));
+        margin: 0 auto;
+        padding: 44px 0 72px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 0.9fr) minmax(280px, 0.7fr);
+        gap: 30px;
+        align-items: center;
+        min-height: 72vh;
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .mark {
+        width: 52px;
+        height: 52px;
+        display: grid;
+        place-items: center;
+        border-radius: 14px;
+        background: #c9ff00;
+        color: #080a08;
+      }
+      .eyebrow {
+        margin: 0 0 14px;
+        color: #c9ff00;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(42px, 8vw, 92px);
+        line-height: 0.96;
+        text-transform: uppercase;
+      }
+      h1 span { display: block; }
+      h2 {
+        margin: 0 0 22px;
+        font-size: clamp(28px, 5vw, 52px);
+        line-height: 1.05;
+      }
+      .lead {
+        max-width: 720px;
+        margin: 0;
+        color: #cbd4c7;
+        font-size: 20px;
+        line-height: 1.7;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+      .button {
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 18px;
+        border-radius: 10px;
+        font-weight: 850;
+      }
+      .primary { background: #c9ff00; color: #080a08; }
+      .secondary { border: 1px solid rgba(201,255,0,.55); color: #c9ff00; }
+      .phone {
+        width: min(360px, 100%);
+        margin-left: auto;
+        overflow: hidden;
+        border: 1px solid rgba(201,255,0,.32);
+        border-radius: 28px;
+        background: #111611;
+        box-shadow: 0 34px 110px rgba(0,0,0,.5);
+      }
+      .phone iframe {
+        width: 100%;
+        aspect-ratio: 9 / 16;
+        display: block;
+        border: 0;
+      }
+      section {
+        padding: 48px 0;
+        border-top: 1px solid rgba(245,247,239,.12);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+      .card {
+        overflow: hidden;
+        background: #141914;
+        border: 1px solid rgba(245,247,239,.12);
+        border-radius: 14px;
+      }
+      .card img {
+        width: 100%;
+        display: block;
+      }
+      .card div { padding: 16px; }
+      .card h3 { margin: 0 0 6px; font-size: 20px; }
+      .card p { margin: 0; color: #b8c2b5; line-height: 1.5; }
+      .links,
+      .notes {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .links a,
+      .notes article {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        border: 1px solid rgba(201,255,0,.36);
+        border-radius: 12px;
+        color: #c9ff00;
+        font-weight: 800;
+      }
+      .notes article {
+        display: block;
+        color: #f5f7ef;
+        background: rgba(245,247,239,.05);
+      }
+      .notes b { display: block; margin-bottom: 8px; color: #c9ff00; }
+      .notes span { color: #c6d0c2; line-height: 1.45; }
+      @media (max-width: 860px) {
+        .hero, .grid, .links, .notes { grid-template-columns: 1fr; }
+        .phone { margin: 0; }
+      }
+      @media (max-width: 560px) {
+        .wrap {
+          width: calc(100% - 36px);
+          padding-top: 32px;
+        }
+        .hero-copy {
+          width: calc(100vw - 36px);
+          max-width: calc(100vw - 36px);
+          overflow: hidden;
+        }
+        .hero {
+          min-height: auto;
+          gap: 28px;
+        }
+        h1 {
+          width: calc(100vw - 36px);
+          max-width: calc(100vw - 36px);
+          font-size: 34px;
+          line-height: 1.02;
+          overflow-wrap: anywhere;
+        }
+        .lead {
+          width: calc(100vw - 36px);
+          max-width: calc(100vw - 36px);
+          font-size: 18px;
+          line-height: 1.6;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+        }
+        .actions {
+          gap: 10px;
+        }
+        .button {
+          min-height: 44px;
+          padding: 0 15px;
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div>
+          <div class="brand"><span class="mark">CJ</span><span>CJ Sport</span></div>
+          <p class="eyebrow">TikTok + Amazon style product test</p>
+          <h1><span>CJ Sport:</span><span>first test line.</span></h1>
+          <p class="lead">这套作品包把“低成本 1688 选品 + 产品展示 + 人物使用场景 + TikTok 内容试水”做成可展示资产。GripLab 不再作为品牌名，只保留为 Grip Trainer Kit 的内部产品概念。</p>
+          <div class="actions">
+            <a class="button primary" href="video-preview/index.html">打开 20 秒视频预览</a>
+            <a class="button secondary" href="portfolio-case.md">查看案例复盘</a>
+          </div>
+        </div>
+        <div class="phone" aria-label="CJ Sport 15 秒视频预览">
+          <iframe src="video-preview/index.html" title="CJ Sport 15s video preview"></iframe>
+        </div>
+      </section>
+
+      <section>
+        <p class="eyebrow">Social posts</p>
+        <h2>3 张重新放大产品后的图文素材</h2>
+        <div class="grid">
+          <article class="card">
+            <a href="exports/post-01.png"><img src="exports/post-01.png" alt="CJ Sport post 01"></a>
+            <div><h3>Post 01</h3><p>产品静物图：先让用户看清楚套装和产品质感。</p></div>
+          </article>
+          <article class="card">
+            <a href="exports/post-02.png"><img src="exports/post-02.png" alt="CJ Sport post 02"></a>
+            <div><h3>Post 02</h3><p>人物使用图：办公桌和健身场景，解决“怎么用”的问题。</p></div>
+          </article>
+          <article class="card">
+            <a href="exports/post-03.png"><img src="exports/post-03.png" alt="CJ Sport post 03"></a>
+            <div><h3>Post 03</h3><p>教程分镜图：手部细节、配件演示、后续实拍清单。</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <p class="eyebrow">Sourcing logic</p>
+        <h2>为什么先测握力器这类轻小运动品</h2>
+        <div class="notes">
+          <article><b>成本</b><span>1688/Yiwu 可找低价源头，适合先买样品，不需要重仓。</span></article>
+          <article><b>内容</b><span>使用动作很直观，手机拍 3 秒就能解释产品是什么。</span></article>
+          <article><b>平台</b><span>TikTok 适合做挑战和办公桌场景，Amazon 适合做规格与套装比较。</span></article>
+          <article><b>风险</b><span>避免医疗康复承诺，只表达训练、习惯、测试和个人体验。</span></article>
+        </div>
+      </section>
+
+      <section>
+        <p class="eyebrow">Project files</p>
+        <h2>可复用文件</h2>
+        <div class="links">
+          <a href="video-preview/index.html">视频预览页</a>
+          <a href="captions.md">Caption + Hashtags</a>
+          <a href="portfolio-case.md">作品集案例</a>
+          <a href="../../plans/13_tiktok_product_market_research_plan.md">选品计划书</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
