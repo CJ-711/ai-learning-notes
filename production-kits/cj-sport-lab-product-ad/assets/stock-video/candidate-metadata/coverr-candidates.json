@@ -1,0 +1,62 @@
+[
+  {
+    "query": "office-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/office",
+    "name": "Close-Up of a Man Using a Wireless Mouse",
+    "description": "Close-up shot of a hand moving a wireless computer mouse.",
+    "duration": "PT10S",
+    "uploadDate": "2024-03-11T08:28:09.663Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-using-a-wireless-mouse-8923/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-using-a-wireless-mouse-8923/thumbnail?width=640"
+  },
+  {
+    "query": "office-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/office",
+    "name": "Close-Up of a Man Typing on the Keyboard",
+    "description": "Close-up shot of male hands typing on a keyboard.",
+    "duration": "PT13S",
+    "uploadDate": "2024-03-11T08:28:08.538Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-typing-on-the-keyboard-4926/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-typing-on-the-keyboard-4926/thumbnail?width=640"
+  },
+  {
+    "query": "office-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/office",
+    "name": "Close-Up of a Man Talking on a Virtual Meeting",
+    "description": "Close-up of a young office worker discussing something on a virtual meeting",
+    "duration": "PT19S",
+    "uploadDate": "2024-03-05T07:57:39.929Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-talking-on-a-virtual-meeting-4792/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-close-up-of-a-man-talking-on-a-virtual-meeting-4792/thumbnail?width=640"
+  },
+  {
+    "query": "commute-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/commute",
+    "name": "Scenic Highway Drive with Tall Palm Trees on a Sunny Day",
+    "description": "Experience a serene drive along a sunny highway lined with tall palm trees. The vibrant blue sky and lush greenery create a picturesque view, perfect for themes of travel, relaxation, and scenic road trips.",
+    "duration": "PT19S",
+    "uploadDate": "2024-06-30T23:56:13.086Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-sunny-highway-drive-with-tall-palms/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-sunny-highway-drive-with-tall-palms/thumbnail?width=640"
+  },
+  {
+    "query": "commute-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/commute",
+    "name": "Train station platform in Melbourne",
+    "description": "An over-the-shoulder shot of a man walking on a train station platform in Melbourne. ",
+    "duration": "PT15S",
+    "uploadDate": "2020-04-09T13:19:20.538Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-train-station-platform-in-melbourne-2563/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-train-station-platform-in-melbourne-2563/thumbnail?width=640"
+  },
+  {
+    "query": "commute-cat",
+    "sourcePage": "https://coverr.co/stock-video-footage/commute",
+    "name": "Woman waiting for the subway",
+    "description": "A still shot of a woman waiting for the subway to arrive at the station. ",
+    "duration": "PT12S",
+    "uploadDate": "2020-01-28T06:12:27.080Z",
+    "contentUrl": "https://cdn.coverr.co/videos/coverr-woman-waiting-for-the-subway-3892/1080p.mp4",
+    "thumbnailUrl": "https://cdn.coverr.co/videos/coverr-woman-waiting-for-the-subway-3892/thumbnail?width=640"
+  }
+]

@@ -38,6 +38,8 @@ Do not download random TikTok, Instagram, YouTube, Nike, adidas, Under Armour, G
 
 The first stock video batch uses Mixkit clips marked for free stock video use. Mixkit pages state the clips can be downloaded for commercial or personal use under the Mixkit Stock Video Free License. Keep source URLs in `asset-manifest.csv`.
 
+The second stock video batch uses Coverr office/commute/backpack clips for the micro-use direction. Keep source URLs in `assets/stock-video/micro-use/micro-use-asset-manifest.csv`.
+
 ## Production Direction
 
 HyperFrames should be used as the finishing layer:
