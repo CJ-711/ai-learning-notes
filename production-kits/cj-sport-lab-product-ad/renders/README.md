@@ -48,6 +48,13 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
   carry, bag kit, grip trainer use, finger extensor use, and compact storage.
   Best current route for "carry it, use it, repeat it" social positioning.
 
+- `cj-sport-lab-v11-real-use-brand-cut.mp4`
+  Brand-style product-use cut based on the user's feedback that the product
+  should not simply "shake." It uses stable push-ins, real office/bag footage,
+  and product-use keyframes to tell a clearer small training-window story:
+  office break, pick the tool, grip reps, open-hand work, return to work, pack
+  small, logo close. This is the strongest current social ad direction.
+
 ## Render Notes
 
 - Format: 1080x1920, 30fps, H.264 MP4.
@@ -61,3 +68,6 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
   `assets/generated-product/product-use/2026-06-23/`.
 - v9-v10 use stronger simulated camera motion on the product keyframes and
   narration-length matching so the voiceover stays aligned to the edit.
+- v11 intentionally removes shake/pulse product motion and uses only stable
+  push-ins/crops so the product feels like a controlled ad insert, not a
+  vibrating still image.

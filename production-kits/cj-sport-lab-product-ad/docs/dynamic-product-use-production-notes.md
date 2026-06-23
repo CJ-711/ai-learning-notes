@@ -13,8 +13,10 @@ grip work, and finger extensor work.
 
 - `renders/cj-sport-lab-v9-desk-reset-dynamic.mp4`
 - `renders/cj-sport-lab-v10-pocket-reps-dynamic.mp4`
+- `renders/cj-sport-lab-v11-real-use-brand-cut.mp4`
 - `renders/cj-sport-lab-v9-desk-reset-dynamic-contact-sheet.jpg`
 - `renders/cj-sport-lab-v10-pocket-reps-dynamic-contact-sheet.jpg`
+- `renders/cj-sport-lab-v11-real-use-brand-cut-contact-sheet.jpg`
 
 ## Creative Direction
 
@@ -49,11 +51,23 @@ tool, get a few clean reps, put it back, and keep moving. CJ Sport Lab builds
 small training gear for daily momentum. Pack it. Use it. Repeat it. Move small.
 Train smart.
 
+### v11 Real Use Brand Cut
+
+Your training window is already there. Between emails. Before the commute.
+While the day is moving. Pick one compact tool. Squeeze with control. Open the
+hand back up. Pack it small, and keep going. CJ Sport Lab makes training gear
+for real schedules, real breaks, and repeatable daily movement. Move small.
+Train smart.
+
 ## Implementation Notes
 
 The render script is:
 
 `scripts/render-cj-sport-lab-dynamic-product-use-videos.js`
+
+The no-jitter brand-style render script is:
+
+`scripts/render-cj-sport-lab-brand-use-cut.js`
 
 It generates 1080x1920 H.264 MP4s using FFmpeg and local Windows English TTS.
 The dynamic product stills use simulated camera movement: push-ins, pull-outs,
@@ -67,6 +81,28 @@ v9 is currently the strongest direct product-use route because most scenes show
 the product in office hand-use context. v10 is stronger than earlier commute
 cuts because it now prioritizes product carry and usage instead of generic
 transit mood shots.
+
+v11 is the strongest current direction after reviewing the user's feedback on
+v9-v10. It removes micro-shake and pulse motion from the product stills and
+uses stable push-ins, tighter product-in-hand frames, and real office/bag
+bridges. This makes the cut feel more like a controlled sports-brand product
+spot and less like a moving slideshow.
+
+## External Reference Notes
+
+The reference pass used official Nike/adidas campaign material only as a
+creative benchmark, not as reusable footage. The useful pattern was: action
+first, minimal text, human/product close-ups, a clear rallying line, and a
+simple emotional arc. For CJ Sport Lab, that pattern was adapted to a smaller
+and more believable promise: compact training tools used during office and
+commute gaps.
+
+Reference pages checked:
+
+- Nike "Winning Isn't for Everyone":
+  https://about.nike.com/en/newsroom/releases/winning-isnt-for-everyone-campaign
+- adidas "You Got This" production notes:
+  https://www.adidas-group.com/en/magazine/behind-the-scenes/bringing-you-got-this-to-life-in-2024
 
 For the next quality jump, generate true two-state or four-state product-use
 motion stills: open grip, squeezed grip, release, pack away. Those can be cut

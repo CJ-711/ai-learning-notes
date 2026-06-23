@@ -54,7 +54,10 @@ HyperFrames should not be expected to invent realistic human movement or product
 
 ## Current Best Cuts
 
-- `renders/cj-sport-lab-v7-office-product-use.mp4` is the strongest office
+- `renders/cj-sport-lab-v11-real-use-brand-cut.mp4` is the current strongest
+  brand-style product-use route. It removes the jitter-style product motion from
+  v9-v10 and uses a clearer office break -> tool use -> pack/carry story.
+- `renders/cj-sport-lab-v7-office-product-use.mp4` remains a useful office
   white-collar product-use route.
 - `renders/cj-sport-lab-v8-commute-pocket-training.mp4` is the compact carry
   and commute route, with one product-use close-up added near the close.
