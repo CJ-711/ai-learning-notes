@@ -28,6 +28,16 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
   Longer system-story cut. Connects desk, bag, commute, waiting, warmup, and CJ
   Sport Lab close. Useful for a pinned intro or account matrix context.
 
+- `cj-sport-lab-v7-office-product-use.mp4`  
+  Product-in-hand office cut. Uses desk context, grip trainer in hand, finger
+  extensor in hand, kit selection, backpack carry, and a stronger energetic
+  English VO. This is the strongest current route for white-collar desk breaks.
+
+- `cj-sport-lab-v8-commute-pocket-training.mp4`  
+  Commute and pocket-training cut. Uses walking, waist-pack carry, backpack
+  carry, transit grip context, product kit insert, and a final close grip-trainer
+  use shot. This is the compact-carry account-matrix route.
+
 ## Render Notes
 
 - Format: 1080x1920, 30fps, H.264 MP4.
@@ -37,3 +47,5 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
 - These are draft social cuts for direction review, not final paid-ad masters.
 - v4-v6 use the new Coverr micro-use footage batch stored under
   `assets/stock-video/micro-use/`.
+- v7-v8 use curated product-use keyframes stored under
+  `assets/generated-product/product-use/2026-06-23/`.

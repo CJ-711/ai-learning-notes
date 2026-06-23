@@ -51,3 +51,13 @@ HyperFrames should be used as the finishing layer:
 - export review cuts
 
 HyperFrames should not be expected to invent realistic human movement or product footage from scratch.
+
+## Current Best Cuts
+
+- `renders/cj-sport-lab-v7-office-product-use.mp4` is the strongest office
+  white-collar product-use route.
+- `renders/cj-sport-lab-v8-commute-pocket-training.mp4` is the compact carry
+  and commute route, with one product-use close-up added near the close.
+
+The product-use keyframes for these cuts are stored under
+`assets/generated-product/product-use/2026-06-23/`.
