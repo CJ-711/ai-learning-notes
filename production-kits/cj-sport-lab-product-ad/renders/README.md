@@ -38,6 +38,16 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
   carry, transit grip context, product kit insert, and a final close grip-trainer
   use shot. This is the compact-carry account-matrix route.
 
+- `cj-sport-lab-v9-desk-reset-dynamic.mp4`  
+  More dynamic office desk-reset cut. Converts product-use stills into moving
+  ad-style shots with push-ins, micro-pulses, neon accents, and short IG/TikTok
+  text overlays. Best current route for white-collar desk-break product use.
+
+- `cj-sport-lab-v10-pocket-reps-dynamic.mp4`  
+  More product-specific pocket/carry route. Shows pocket setup, waist-pack
+  carry, bag kit, grip trainer use, finger extensor use, and compact storage.
+  Best current route for "carry it, use it, repeat it" social positioning.
+
 ## Render Notes
 
 - Format: 1080x1920, 30fps, H.264 MP4.
@@ -49,3 +59,5 @@ Generated on 2026-06-23 for TikTok / Instagram Reels testing.
   `assets/stock-video/micro-use/`.
 - v7-v8 use curated product-use keyframes stored under
   `assets/generated-product/product-use/2026-06-23/`.
+- v9-v10 use stronger simulated camera motion on the product keyframes and
+  narration-length matching so the voiceover stays aligned to the edit.
